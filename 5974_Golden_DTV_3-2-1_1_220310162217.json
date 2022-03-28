@@ -1,0 +1,114 @@
+{
+  "gold": [
+    "00_00_00.000000"
+  ],
+  "paired": [
+    {
+      "probe": "00_00_00.000000.png",
+      "gold": "00_00_00.000000",
+      "similarity": 100.0
+    }
+  ],
+  "unpaired": [
+    {
+      "probe": "00_00_00.016667.png",
+      "class": "monochrome",
+      "similarity": 96.08
+    },
+    {
+      "probe": "00_00_00.033333.png",
+      "class": "rubber eraser, rubber, pencil eraser",
+      "similarity": 14.54
+    },
+    {
+      "probe": "00_00_00.150000.png",
+      "class": "monochrome",
+      "similarity": 99.61
+    },
+    {
+      "probe": "00_00_00.166667.png",
+      "class": "binder, ring-binder",
+      "similarity": 11.78
+    },
+    {
+      "probe": "00_00_00.183333.png",
+      "class": "monochrome",
+      "similarity": 98.51
+    },
+    {
+      "probe": "00_00_00.200000.png",
+      "class": "binder, ring-binder",
+      "similarity": 11.44
+    },
+    {
+      "probe": "00_00_00.250000.png",
+      "class": "ice lolly, lolly, lollipop, popsicle",
+      "similarity": 18.54
+    },
+    {
+      "probe": "00_00_00.283333.png",
+      "class": "binder, ring-binder",
+      "similarity": 13.14
+    },
+    {
+      "probe": "00_00_00.333333.png",
+      "class": "bath towel",
+      "similarity": 24.6
+    },
+    {
+      "probe": "00_00_00.350000.png",
+      "class": "rule, ruler",
+      "similarity": 9.66
+    },
+    {
+      "probe": "00_00_00.383333.png",
+      "class": "doormat, welcome mat",
+      "similarity": 15.16
+    },
+    {
+      "probe": "00_00_00.483333.png",
+      "class": "doormat, welcome mat",
+      "similarity": 5.2
+    },
+    {
+      "probe": "00_00_00.500000.png",
+      "class": "monochrome",
+      "similarity": 98.96
+    },
+    {
+      "probe": "00_00_00.533333.png",
+      "class": "bath towel",
+      "similarity": 7.76
+    },
+    {
+      "probe": "00_00_00.550000.png",
+      "class": "monochrome",
+      "similarity": 96.8
+    },
+    {
+      "probe": "00_00_00.583333.png",
+      "class": "window screen",
+      "similarity": 17.0
+    },
+    {
+      "probe": "00_00_00.600000.png",
+      "class": "monochrome",
+      "similarity": 93.66
+    },
+    {
+      "probe": "00_00_00.633333.png",
+      "class": "shower curtain",
+      "similarity": 38.79
+    },
+    {
+      "probe": "00_00_00.666667.png",
+      "class": "monochrome",
+      "similarity": 81.9
+    },
+    {
+      "probe": "00_00_00.750000.png",
+      "class": "pool table, billiard table, snooker table",
+      "similarity": 17.62
+    }
+  ]
+}

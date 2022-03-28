@@ -1,0 +1,34 @@
+{
+  "gold": [
+    "00_00_00.000000"
+  ],
+  "paired": [
+    {
+      "probe": "00_00_00.000000.png",
+      "gold": "00_00_00.000000",
+      "similarity": 100.0
+    }
+  ],
+  "unpaired": [
+    {
+      "probe": "00_00_00.166667.png",
+      "class": "doormat, welcome mat",
+      "similarity": 12.28
+    },
+    {
+      "probe": "00_00_00.450000.png",
+      "class": "digital clock",
+      "similarity": 7.76
+    },
+    {
+      "probe": "00_00_00.483333.png",
+      "class": "velvet",
+      "similarity": 26.63
+    },
+    {
+      "probe": "00_00_00.533333.png",
+      "class": "hair spray",
+      "similarity": 16.89
+    }
+  ]
+}

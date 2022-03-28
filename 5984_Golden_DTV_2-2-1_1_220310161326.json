@@ -1,0 +1,19 @@
+{
+  "gold": [
+    "00_00_00.000000"
+  ],
+  "paired": [
+    {
+      "probe": "00_00_00.000000.png",
+      "gold": "00_00_00.000000",
+      "similarity": 100.0
+    }
+  ],
+  "unpaired": [
+    {
+      "probe": "00_00_00.266667.png",
+      "class": "monochrome",
+      "similarity": 99.92
+    }
+  ]
+}

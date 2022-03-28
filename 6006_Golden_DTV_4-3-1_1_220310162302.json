@@ -1,0 +1,18 @@
+{
+  "gold": [
+    "00_00_00.000000"
+  ],
+  "paired": [],
+  "unpaired": [
+    {
+      "probe": "00_00_00.000000.png",
+      "class": "bookcase",
+      "similarity": 11.6
+    },
+    {
+      "probe": "00_00_00.150000.png",
+      "class": "monitor",
+      "similarity": 13.51
+    }
+  ]
+}

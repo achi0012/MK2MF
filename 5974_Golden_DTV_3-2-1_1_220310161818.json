@@ -1,0 +1,13 @@
+{
+  "gold": [
+    "00_00_00.000000"
+  ],
+  "paired": [],
+  "unpaired": [
+    {
+      "probe": "00_00_00.000000.png",
+      "class": "candle, taper, wax light",
+      "similarity": 16.43
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "gold": [
+    "00_00_00.000000"
+  ],
+  "paired": [],
+  "unpaired": [
+    {
+      "probe": "00_00_00.000000.png",
+      "class": "rubber eraser, rubber, pencil eraser",
+      "similarity": 14.98
+    }
+  ]
+}

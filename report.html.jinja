@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>IDOL Video Anomaly Report</title>
+  <style>
+
+body {
+  font-family: Helvetica;
+  margin: 0;
+  min-width: 800px;
+}
+
+.lighter {
+  font-weight: lighter; 
+}
+
+.header {
+  background-color: lightblue;
+  margin: 0;
+  padding: 5px 20px;
+}
+
+.report {
+  background-color: white;
+  margin: 0;
+  padding: 5px 20px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: thin solid grey;
+}
+
+thead {
+  background-color: lightblue;
+  border-bottom: thin solid grey;
+}
+
+th, td {
+  text-align: center;
+  vertical-align: top;
+}
+
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>IDOL Video Anomaly Report</h1>
+    <h3><span class="lighter">Test file:</span> {{ test_file }}</h3>
+    <h3><span class="lighter">Golden record:</span> {{ golden_file }}</h3>
+  </div>
+
+  <div class="report">
+    <h3>Paired records [{{ n_paired }}]</h3>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Golden record</th>
+          <th>Paired record</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for match in matches %}
+          <tr>
+            <td>
+              <img src="{{ match.gold_img }}" />
+              <p>{{ match.gold }}</p>
+            </td>
+            <td>
+            {% if match.probe %}
+              <img src="{{ match.probe_img }}" />
+              <p>{{ match.probe }}</p>
+              <p>{{ match.similarity }}%</p>
+            {% else %}
+              <p>No match</p>
+            {% endif %}
+            </td>
+            <td></td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <h3>Unpaired records [{{ anomalies|length }}]</h3>
+
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Unpaired record</th>
+          <th>Anomaly classification</th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for anomaly in anomalies %}
+        <tr>
+          <td></td>
+          <td>
+            <img src="{{ anomaly.probe_img }}" />
+            <p>{{ anomaly.data.probe }}</p>
+          </td>
+          <td>
+            <p>{{ anomaly.data.class }}</p>
+            <p>{{ anomaly.data.similarity }}%</p>
+          </td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
